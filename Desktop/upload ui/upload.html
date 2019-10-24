@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload Files</title>
+    <link rel="stylesheet" href="./upload.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="header_content">
+                <h2>Virtual Maze -- Upload Files</h2>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="main_content">
+                <div class="upload_content">
+                    <img src="./upload.png" alt="">
+                    <div>
+                        <p id="warning">
+                            Only zip files allowed <i>eg:.zip,.rar,.7zip</i>
+                        </p>
+                        <p id="filename">No files choosen</p>
+                    </div>
+                    <form action="" id="fileuploadform">
+                        <div class="upload_buttons">
+                            <button id="addfilebutton">Add File</button>
+                            <input type="file" id="addfileinput" name="zipfile" accept=".zip,.rar,.7zip">
+                        </div>
+                        <button id="uploadbutton" disabled='true' type="submit">Upload File</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+      
+    </main>
+    
+    <script src="./upload.js"></script>
+</body>
+
+</html>

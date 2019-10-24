@@ -1,0 +1,85 @@
+/*Global*/
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+body{
+    overflow-x: hidden;
+}
+body,h1,h2,h3,p{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width:90%;
+    margin: auto;
+}
+
+/*header*/
+header{
+    background: #424242;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+/*main*/
+main{
+    padding: 100px 0;
+}
+.main_content{
+    margin: 0 20px;
+}
+.upload_content{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+.upload_buttons{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.upload_content img{
+    height: 200px;
+}
+.upload_buttons{
+    position: relative;
+}
+#addfilebutton{
+    background: tomato;
+    border:none;
+    color: white;
+    font-size: 18px;
+    padding: 14px 0px;
+
+}
+#addfileinput{
+    padding: 14px 0px;
+    font-size: 23px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+
+}
+#warning{
+    margin-top: 12px;
+    color: rgb(236, 61, 30);
+}
+#filename{
+    font-size: 20px;
+    padding: 10px 0;
+}
+#uploadbutton{
+    background: #1A73E8;
+    width: 400px;
+    border: none;
+    color:white;
+    font-size: 18px;
+    padding: 14px 0;
+    margin-top: 20px;
+    opacity: 0.3;
+}
